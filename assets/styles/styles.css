@@ -65,6 +65,216 @@
 {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner2.jpg) center center fixed no-repeat;
     background-size: cover;
-    height: 1400px;
-
+    height: 2800px;
 }
+
+.card-bloc
+{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner3.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 2800px;
+}
+
+/*Btn*/
+#btn
+{
+    height: 4em;
+    width: 12em;
+    color: var(--taupe);
+    font-size: .8em;
+    font-weight: bold;
+    background-color: var(--brun);
+    border-radius: 30px;
+    border: solid 3px var(--taupe);
+}
+
+#btn:hover
+{
+    background-color: var(--taupe);
+    color: var(--beige);
+    border: solid 2px var(--brun);
+}
+
+.btn
+{
+    height: 4em;
+    width: 12em;
+    color: var(--taupe);
+    font-size: .8em;
+    font-weight: bold;
+    background-color: var(--brun);
+    border-radius: 30px;
+    border: solid 3px var(--taupe);
+}
+
+.btn:hover
+{
+    background-color: var(--taupe);
+    color: var(--beige);
+    border: solid 2px var(--brun);
+}
+
+/*Btn END*/
+
+/*CarouselProduct*/
+.center{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+  }
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 90em;
+    height: 50em;
+    margin-top: -25%;
+    margin-bottom: 35%;
+  }
+  
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideFadeIn 1s ease-in-out;
+    
+  }
+  
+  
+  .carousel-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+  
+  @keyframes slideFadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(0,0,0,0.5);
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-control-prev {
+    left: 0; 
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
+  .carousel-slide:first-of-type ~ .carousel-control-prev,
+  .carousel-slide:last-of-type ~ .carousel-control-next {
+    
+  }
+
+  /*CarouselProduct END*/
+
+  /*Cards*/
+  .card 
+{
+    margin-top: 5%;
+    margin-bottom: 0%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#fontCaveat
+{
+  font-family:"Century Gothic", 'Caveat', cursive;
+  font-weight: 700;
+}
+
+figure 
+{
+    display: grid;
+    border-top: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+figure > * 
+{
+    grid-area: 1/1;
+    transition: .4s;
+}
+
+figure figcaption 
+{
+    display: grid;
+    align-items: end;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #0000;
+    padding: .75rem;
+    background: var(--c,#0009);
+    clip-path: inset(0 var(--_i,100%) 0 0);
+    -webkit-mask:
+      linear-gradient(#000 0 0),
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    -webkit-mask-clip: text, padding-box;
+    margin: -1px;
+  }
+
+  figure:hover figcaption
+  {
+    --_i: 0%;
+  }
+
+  figure:hover img 
+  {
+    transform: scale(1.2);
+  }
+
+  @supports not (-webkit-mask-clip: text) 
+  {
+    figure figcaption {
+     -webkit-mask: none;
+     color: var(--noir);
+    }
+  }
+
+  /*Cards END*/
+  
