@@ -2,5 +2,34 @@
 
 :root
 {
+    --noir: #000;
+    --beige : #e5efe6;
     --taupe : #8e8d8a;
+    --brun : #e8d5cc;
+    --brunF : #bda18a;
+}
+
+.caveatFont
+{
+    font-family:"Century Gothic", 'Caveat', cursive; 
+}
+
+.perso-navbar
+{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.perso-navbar .nav-link
+{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.perso-navbar .nav-link:hover
+{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
 }
