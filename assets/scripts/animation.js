@@ -1,7 +1,7 @@
 "use strict";
 
 //Animation balls:
-const ball = document.getElementById('ball1');
+const ball = document.getElementById('logo2');
 let leftPos = 0;
 let upDownPos = 0;
 let dir = -1;

@@ -11,6 +11,11 @@
     --brunF : #bda18a;
 }
 
+body
+{
+    overflow-x: hidden;
+}
+
 .caveatFont
 {
     font-family:"Century Gothic", 'Caveat', cursive;
@@ -20,6 +25,24 @@
 .merriweatherFont
 {
     font-family: 'Merriweather', serif;
+}
+
+nav
+{
+    height: 170px;
+    font-size: 1.4em;
+}
+
+#logo
+{
+    height: 25em;
+    width: 25em;
+}
+
+#logo2
+{
+    height: 15em;
+    width: 15em;
 }
 
 .perso-navbar
@@ -70,7 +93,7 @@
 
 .card-bloc
 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner3.jpg) center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner3.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 2800px;
 }
