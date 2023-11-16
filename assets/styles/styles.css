@@ -33,3 +33,22 @@
     padding-bottom: 20px;
     border-bottom-color: var(--bs-teal);
 }
+
+.banner, .order-form
+{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner1.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.order-form
+{
+    height: 500px;
+}
+
+.banner .banner-desc
+{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
