@@ -57,6 +57,13 @@ nav
     opacity: 70%;
 }
 
+#cachetStatic
+{
+    height: 50rem;
+    width: 50rem;
+    margin-top: -55%;
+}
+
 /*Carousel1*/
 .Slideshow 
 {
@@ -232,19 +239,19 @@ nav
 {
     height: 4em;
     width: 12em;
-    color: var(--taupe);
+    color: var(--beige);
     font-size: .8em;
     font-weight: bold;
-    background-color: var(--brun);
+    background-color: var(--taupe);
     border-radius: 30px;
-    border: solid 3px var(--taupe);
+    border: solid 3px var(--beige);
 }
 
 .btn:hover
 {
-    background-color: var(--taupe);
-    color: var(--beige);
-    border: solid 2px var(--brun);
+    background-color: var(--beige);
+    color: var(--noir);
+    border: solid 2px var(--brunF);
 }
 
 /*Section Marie*/
