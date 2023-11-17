@@ -44,7 +44,74 @@ nav
     height: 15em;
     width: 15em;
 }
+/*Carousel1*/
+.Slideshow 
+{
+    height: 600px;
+    width: 620px;
+    overflow: hidden;
+}
 
+.Slideshow-Content 
+{
+    position: relative;
+    height: 100%;
+}
+
+.Slideshow-Content img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-direction: alternate;
+  }
+
+  .Slideshow-Content img:nth-of-type(1) 
+  {
+    animation-delay: 10s;
+  }
+
+  .Slideshow-Content img:nth-of-type(2) 
+  {
+    animation-delay: 5s;
+  }
+
+  .Slideshow-Content img:nth-of-type(3) 
+  {
+    animation-delay: 0s;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    35% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+/*Carousel1 END*/
 .perso-navbar
 {
     background-color: rgba(0, 0, 0, 0.55);
