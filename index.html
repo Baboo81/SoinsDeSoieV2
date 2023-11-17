@@ -73,7 +73,7 @@
           <section class="available merriweatherFont py-5">
                 <div class="container">
                     <div class="row">
-                        <div class="card my-5 border-0 rounded-0">
+                        <div id="cardMarie" class="card my-5 border-0 rounded-0">
                             <div class="row">
                                 <div class="col-md-6 p-3">
                                     <img src="./assets/img/img7.webp" class="img-fluid rounded-start" alt="...">
@@ -114,7 +114,7 @@
                         <h1 class="text-center py-5">Les Soins</h1>
                     </div>
                     <!--Accordeon-->
-                <section class="accordion p-4" id="accordionCares">
+                <section class="accordion rounded-3 bg-dark p-4" id="accordionCares">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -999,14 +999,14 @@
     <section class="card-bloc merriweatherFont py-5">
         <div class="container">
             <div class="row">
-                <div class="card my-5 border-0 rounded-0">
+                <div class="card my-5 border-0 bg-dark rounded-3">
                     <div class="row">
                         <div class="col-md-8">
                             <img src="./assets/img/svg/calendar.svg" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-4">
                             <div class="card-body justify-content-center">
-                                <h1 class="card-title text-center py-2">Prendre rendez-vous</h1>
+                                <h1 id="rdvTitle" class="card-title text-center py-2">Prendre rendez-vous</h1>
                                 <p class="card-text text-muted caveatFont"></p>
                                 <button class="btnAppointment" id="btn" type="button">Prendre rendez-vous</button>
                             </div>
@@ -1019,27 +1019,31 @@
 </body>
 <footer class="container-fluid bg-dark text-light py-5">
     <div class="d-flex">
-        <div class="col-md-3 mx-1" id="adress">
+        <div class="col-md-2 mx-1" id="adress">
             <h3 class="text-center mb-4">Adresse</h3>
             <p class="text-center fw-bolder">Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
             <div id="mapid" class="container-fluid"></div>
         </div>
         <div class="col-md-3 text-center" id="opening">
             <h3 class="mb-4">Horaire</h3>
-            <p>Lundi    09:00 - 19h00</p>
-            <p>Mardi    09:00 - 16h00</p>
-            <p>Mercredi Fermé</p>
-            <p>Jeudi    09h00 - 19h00</p>
-            <p>Vendredi 09h00 - 19h00</p>
-            <p>Samedi   09h00 - 16h00</p>
-            <p>Dimanche Fermé</p>
+            <div class="">
+                <p>Lundi    09:00 - 19h00</p>
+                <p>Mardi    09:00 - 16h00</p>
+                <p>Mercredi Fermé</p>
+                <p>Jeudi    09h00 - 19h00</p>
+                <p>Vendredi 09h00 - 19h00</p>
+                <p>Samedi   09h00 - 16h00</p>
+                <p>Dimanche Fermé</p>
+            </div>
         </div>
         <div class="col-md-3 text-center">
             <h3>Réseaux sociaux</h3>
-            <a href="https://www.facebook.com/soinsdesoiephp"><img class="icons" src="" alt="Icône FaceBook"></a>
-            <a href=""><img class="icons" src="" alt="Icône Instagram"></a>
+            <div class="">
+                <a href="https://www.facebook.com/soinsdesoie"><img class="icons p-3" src="./assets/img/svg/facebook.svg" alt="Icône FaceBook"></a>
+                <a href=""><img class="icons p-3" src="./assets/img/svg/instagram.svg" alt="Icône Instagram"></a>
+            </div>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-start">
             <h3 class="mb-4">Coordonnées</h3>
             <p>soinsdesoie1420@gmail.com</p>
             <p>0472/26.19.93</p>
