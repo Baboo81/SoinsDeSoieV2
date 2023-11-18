@@ -136,11 +136,12 @@ nav
 /*Zones scrollables*/
 .scroll
 {
+    width: 455px;
+    height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border: #000 1px solid;
-    width: 450px;
-    height: 500px;
+    border: 1px solid var(--taupe);
+    margin: auto;
 }
 
 #cardContent
@@ -220,19 +221,19 @@ nav
 {
     height: 4em;
     width: 12em;
-    color: var(--taupe);
+    color: var(--beige);
     font-size: .8em;
     font-weight: bold;
-    background-color: var(--brun);
+    background-color: var(--taupe);
     border-radius: 30px;
-    border: solid 3px var(--taupe);
+    border: solid 3px var(--beige);
 }
 
 #btn:hover
 {
-    background-color: var(--taupe);
-    color: var(--beige);
-    border: solid 2px var(--brun);
+    background-color: var(--beige);
+    color: var(--noir);
+    border: solid 2px var(--taupe);
 }
 
 .btn
@@ -251,7 +252,7 @@ nav
 {
     background-color: var(--beige);
     color: var(--noir);
-    border: solid 2px var(--brunF);
+    border: solid 2px var(--taupe);
 }
 
 /*Section Marie*/
@@ -452,6 +453,7 @@ figure figcaption
 #rdvTitle
 {
     color: var(--beige);
+    margin-right: 15%;
 }
 
 /*FooterMap*/
