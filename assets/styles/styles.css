@@ -16,6 +16,11 @@ body
     overflow-x: hidden;
 }
 
+.bg-brun
+{
+    background-color: var(--brun);
+}
+
 .caveatFont
 {
     font-family:"Century Gothic", 'Caveat', cursive;
@@ -25,6 +30,14 @@ body
 .merriweatherFont
 {
     font-family: 'Merriweather', serif;
+}
+
+.mainTitles
+{
+  font-size: 5em;
+  font-weight: 600;
+  font-family: 'Merriweather', serif;
+  letter-spacing: .3em;
 }
 
 nav
@@ -275,6 +288,11 @@ nav
 /*Section Marie END*/
 
 /*Accordion*/
+#accordionCares
+{
+    margin-top: 10%;
+}
+
 .accordion-item
 {
     background-color: var(--brun);
@@ -287,7 +305,10 @@ nav
 }
 /*Accordion END*/
 
-/*Btn END*/
+#cards
+{
+  margin-top: 20%;
+}
 
 /*CarouselProduct*/
 .center{
@@ -381,6 +402,10 @@ nav
     
   }
 
+  #carouselProduct
+  {
+    margin-top: 10%;
+  }
   /*CarouselProduct END*/
 
   /*Cards*/
@@ -452,7 +477,7 @@ figure figcaption
 
 #rdvTitle
 {
-    color: var(--beige);
+    color: var(--taupe);
     margin-right: 15%;
 }
 
