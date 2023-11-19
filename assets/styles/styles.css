@@ -25,6 +25,8 @@ body
 {
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.4em; 
+    font-weight: 600;
+    color: var(--taupe);
 }
 
 .merriweatherFont
@@ -44,11 +46,6 @@ nav
 {
     height: 170px;
     font-size: 1.4em;
-}
-
-#logo
-{
-   
 }
 
 #logo2
@@ -240,6 +237,7 @@ nav
     background-color: var(--taupe);
     border-radius: 30px;
     border: solid 3px var(--beige);
+    margin-left: 20%;
 }
 
 #btn:hover
@@ -479,6 +477,11 @@ figure figcaption
 {
     color: var(--taupe);
     margin-right: 15%;
+}
+
+#carteF
+{
+  
 }
 
 /*FooterMap*/
