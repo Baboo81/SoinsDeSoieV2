@@ -65,3 +65,13 @@ carouselBtn3.addEventListener("click", () => {
     baliseP3.style.display = "block";
   }
 });
+
+function txtCarouselProduct () {
+    if (getComputedStyle(baliseP1, baliseP2, baliseP3).display != "none") {
+      baliseP1.style.display = "none";
+      baliseP2.style.display = "none";
+      baliseP3.style.display = "none";
+    }
+};
+
+txtCarouselProduct ();

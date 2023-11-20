@@ -173,6 +173,7 @@ nav
 }
 /*Zones scrollables END*/
 
+/*Nav*/
 .perso-navbar
 {
     background-color: rgba(0, 0, 0, 0.55);
@@ -192,13 +193,16 @@ nav
     padding-bottom: 20px;
     border-bottom-color: var(--bs-teal);
 }
+/*Nav END*/
 
+/*Parallaxe*/
 .banner, .order-form
 {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 1200px;
 }
+/**/
 
 .order-form
 {
@@ -212,6 +216,7 @@ nav
     color: #fff;
 }
 
+/*Parallaxe*/
 .perso-menu
 {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner2.jpg) center center fixed no-repeat;
@@ -225,6 +230,7 @@ nav
     background-size: cover;
     height: 1800px;
 }
+/**/
 
 /*Btn*/
 #btn
@@ -264,6 +270,24 @@ nav
     background-color: var(--beige);
     color: var(--noir);
     border: solid 2px var(--taupe);
+}
+
+#carousel-btn1
+{
+    height: 3em;
+    width: 9em;
+}
+
+#carousel-btn2
+{
+    height: 3em;
+    width: 9em;
+}
+
+#carousel-btn3
+{
+    height: 3em;
+    width: 9em;
 }
 
 /*Section Marie*/
@@ -405,21 +429,10 @@ nav
     margin-top: 10%;
   }
 
-  /*balise <p>*/
-  #p1
-  {
-    
-  }
-
-  #p2
-  {
-    
-  }
-
-  #p3
-  {
-    
-  }
+ .blocBtnVideo
+ {
+    margin-top: 20%;
+ } 
   /*CarouselProduct END*/
 
   /*Cards*/
@@ -493,11 +506,6 @@ figure figcaption
 {
     color: var(--taupe);
     margin-right: 15%;
-}
-
-#carteF
-{
-  
 }
 
 /*FooterMap*/
