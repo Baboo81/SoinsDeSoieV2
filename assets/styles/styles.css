@@ -577,7 +577,10 @@ footer
 /*Style pour les tablettes*/
 @media only screen and (min-width : 481px) and (max-width : 768px)
 {
-
+    footer 
+    {
+       height: 1225px;
+    }
 }
 
 /*Style pour les desktop*/
