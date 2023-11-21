@@ -541,7 +541,7 @@ figure figcaption
 /*FooterMap*/
 footer
 {
-    height: 515px;
+    height: 615px;
     background-color: rgba(0, 0, 0, 0.55);
     font-family: 'Merriweather', serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
@@ -553,3 +553,35 @@ footer
     border-radius: 10px;
 }
 /*FooterMap END*/
+
+/*Media queries*/
+
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+@media only screen and (max-width : 480px)
+{
+  /*Carousel1*/
+    .Slideshow
+    {
+        height: 300px;
+        width: 310px;
+        overflow: hidden;
+    }
+
+    footer 
+    {
+      height: 1225px;
+      
+    }
+}
+
+/*Style pour les tablettes*/
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+
+}
+
+/*Style pour les desktop*/
+@media only screen and (min-width : 769px)
+{
+
+}
