@@ -333,22 +333,26 @@ nav
 }
 
 /*CarouselProduct*/
-.center{
+.center
+{
     display:flex;
     justify-content: center;
     position: relative;
     top: 25vh;
-  }
-  .carousel-container {
+}
+
+.carousel-container 
+{
     position: relative;
     overflow: hidden;
     width: 90em;
     height: 50em;
     margin-top: -25%;
     margin-bottom: 35%;
-  }
+}
   
-  .carousel-slide {
+.carousel-slide 
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -359,16 +363,17 @@ nav
     justify-content: center;
     animation: slideFadeIn 1s ease-in-out;
     
-  }
+}
   
-  
-  .carousel-slide img {
+.carousel-slide img 
+{
     height: 100%;
     width: 100%;
     object-fit: cover;
-  }
+}
   
-  .carousel-caption {
+.carousel-caption 
+{
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 1rem;
@@ -380,7 +385,7 @@ nav
     width: 70%;
     text-align: justify;
     font-size: 1.3rem;
-  }
+}
   
   @keyframes slideFadeIn {
     from {
@@ -429,10 +434,35 @@ nav
     margin-top: 10%;
   }
 
- .blocBtnVideo
+ .bloc1BtnVideo
  {
-    margin-top: 20%;
+    margin-top: 0%;
  } 
+
+ .bloc2BtnVideo
+ {
+    margin-top: 0%;
+ } 
+
+ .bloc3BtnVideo
+ {
+    margin-top: 0%;
+ } 
+
+ #blocCarouselBtn1
+ {
+    margin-top: 5%;
+ }
+
+ #blocCarouselBtn2
+ {
+    margin-top: 5%;
+ }
+
+ #blocCarouselBtn3
+ {
+    margin-top: 7%;
+ }
   /*CarouselProduct END*/
 
   /*Cards*/
