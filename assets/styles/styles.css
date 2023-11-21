@@ -16,9 +16,9 @@ body
     overflow-x: hidden;
 }
 
-.bg-brun
+.bg-brunF
 {
-    background-color: var(--brun);
+    background-color: var(--brunF);
 }
 
 .caveatFont
