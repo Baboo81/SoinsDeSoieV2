@@ -592,7 +592,7 @@ footer
     {
         background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner2SmallScreen.jpg) center center fixed no-repeat;
         background-size: cover;
-        height: 1200px;
+        height: 1800px;
     }
 
     .card-bloc
@@ -618,6 +618,23 @@ footer
         overflow: hidden;
     }
     /*Carousel1 END*/
+
+    /*Accordion*/
+    #collapseThree
+    {
+      width: 300px;
+    }
+
+    .scroll
+  {
+    width: 455px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid var(--taupe);
+    margin: auto;
+  }
+    /*END*/
 
     /*CarouselProduct*/
 
@@ -650,24 +667,46 @@ footer
     {
         display: none;
     }
+
+    #videoSothys
+    {
+        height: 150px;
+        width: 200px;
+    }
+
+    #videoCassiere
+    {
+        height: 150px;
+        width: 200px;
+    }
     /*CarouselProduct END*/
 
     /*Cards Sothys/Cassière*/
     #cards
     {
-      margin-left: -10%;
+      margin-left: 0%;
     }
 
     #cardSothys
     {
       height: 20rem;
-      width: 5rem;
+      width: 20rem !important;
+    }
+
+    #cardContent
+    {
+        width: 300px;
+    }
+
+    #cardContent2
+    {
+        width: 300px;
     }
 
     #cardCassiere
     {
       height: 20rem;
-      width: 5rem;
+      width: 20rem !important;
     }
     /*Cards END*/
 
