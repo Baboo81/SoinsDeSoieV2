@@ -86,8 +86,8 @@ nav
 
 #cachetStatic
 {
-    height: 50rem;
-    width: 50rem;
+    height: 65rem;
+    width: 65rem;
     margin-top: -55%;
 }
 
@@ -96,6 +96,7 @@ nav
 {
     height: 600px;
     width: 620px;
+    margin-top: 10%;
     overflow: hidden;
 }
 
@@ -308,9 +309,10 @@ nav
 }
 
 /*Section Marie*/
-.available
+.sectionInstitut
 {
     background-color: var(--taupe);
+    height: 1200px;
 }
 
 #cardMarie
@@ -325,6 +327,13 @@ nav
     box-shadow: 8px 8px 12px #aaa;
 }
 /*Section Marie END*/
+
+/*Section slider1*/
+.sectionSlider1
+{
+  height: 1000px;
+}
+/*Section slider1 END*/
 
 /*Accordion*/
 #accordionCares
