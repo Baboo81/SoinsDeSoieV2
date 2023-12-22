@@ -29,7 +29,7 @@ function ballAnimate1 () {
 };
 
 requestAnimationFrame(ballAnimate1);
-
+//////////////////////////////////////
 //Cards:
 //Card content collapse:
 const togg = document.getElementById('togg');
@@ -63,7 +63,7 @@ function collapsed () {
 };
 
 collapsed();
-
+/////////////////////////////////////////////
 //CarouselProduct
 let slides = document.querySelectorAll(".carousel-slide");
 let currentSlide = 0;
@@ -139,7 +139,7 @@ function txtCarouselProduct () {
 };
 
 txtCarouselProduct ();
-
+///////////////////////////////////////////
 //Footer map:
 //Create map:
 const centroid = [50.709925, 4.352603];
@@ -148,5 +148,10 @@ const map = L.map('mapid').setView(centroid, 16.4);
 //Add tiles & marker:
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 L.marker([50.709925, 4.352603]).addTo(map);
-
+////////////////////////////////////////////
+//Fonction de substitution à target _blank:
+function openLink () {
+    const link = "https://booking.optios.net/19311";
+    open(link, "_blank")
+}
 
