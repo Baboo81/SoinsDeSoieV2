@@ -216,7 +216,7 @@ nav
 /*Parallaxe*/
 .banner, .order-form
 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1XLargeScreen.jpg) center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1Bis.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 1200px;
 }
