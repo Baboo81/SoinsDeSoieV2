@@ -216,7 +216,7 @@ nav
 /*Parallaxe*/
 .banner, .order-form
 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1Bis-min.jpg) center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1SmallScreen-min.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 1200px;
 }
@@ -237,14 +237,14 @@ nav
 /*Parallaxe*/
 .perso-menu
 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner2XLargeScreen-min.jpg) center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner2SmallScreen-min.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 2800px;
 }
 
 .card-bloc
 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner3XLargeScreen-min.jpg) center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner3SmallScreen-min.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 1800px;
 }
