@@ -152,6 +152,6 @@ L.marker([50.709925, 4.352603]).addTo(map);
 //Fonction de substitution à target _blank:
 function openLink () {
     const link = "https://booking.optios.net/19311";
-    open(link, "_blank")
+    window.open(link, "https://soinsdesoie.be", "_self")
 }
 
