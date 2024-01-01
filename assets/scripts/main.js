@@ -150,8 +150,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 L.marker([50.709925, 4.352603]).addTo(map);
 ////////////////////////////////////////////
 //Fonction de substitution à target _blank:
-function openLink () {
+function openLink (event) {
     const link = "https://booking.optios.net/19311";
-    window.open(link, "https://soinsdesoie.be", "_self")
+    window.open(link, "https://soinsdesoie.be", "_self");
+    event.preventDefault();
 }
 

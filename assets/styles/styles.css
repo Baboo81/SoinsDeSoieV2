@@ -336,7 +336,8 @@ nav
 
 .accordion-item
 {
-    background-color: var(--brun);
+    background-color: lightgrey;
+    color: var(--noir);
 }
 
 .accordion-button
