@@ -813,12 +813,20 @@ footer
       width: 8em;
       height: 4em;
     }
-
-    .carousel-caption
-    {
-        margin-top: 35%;
-    }
     /*Cosmétiques END*/
+
+    /*Section rdv*/
+    #appointment
+    {
+      margin-left: 26%;
+    }
+
+    #carteFid
+    {
+      margin-bottom: -15%;
+      margin-left: 12%;
+    }
+    /*Section rdv END*/
 
     footer 
     {
@@ -835,9 +843,72 @@ footer
       overflow-x: hidden;
     }
 
+    /*Section Marie*/
+    .sectionInstitut
+    {
+        background-color: var(--taupe);
+        height: 1500px;
+    }
+    /*Section Marie END*/
+
+    /*Secttion slider1*/
+    .sectionSlider1
+    {
+      height: 1350px;
+    }
+
+    .Slideshow 
+    {
+        height: 600px;
+        width: 630px;
+    }
+
+    #cachetStatic
+    {
+        height: 65rem;
+        width: 65rem;
+        margin-left: -40%;
+    }
+    /*Secttion slider1 END*/
+
+    /*Section cosmétique*/
+    #sectionCosmetiques
+    {
+       height: 1300px;
+    }
+
+    #carouselProduct
+    {
+        margin-top: -13%;
+    }
+
+    .mainTitles
+    {
+        font-size: 3em;
+    }
+    /*Section cosmétique END*/
+
+    /*Section rdv*/
+    #rdvTitle
+    {
+        margin-left: 10%;
+    }
+
+    #appointment
+    {
+      margin-left: 31%;
+    }
+
+    #carteFid
+    {
+      margin-bottom: -15%;
+      margin-left: 12%;
+    }
+    /*Section rdv END*/
+
     footer 
     {
-       height: 1225px;
+       height: 1250px;
     }
 }
 
