@@ -651,8 +651,8 @@ footer
 
     #cachetStatic
     {
-        height: 30rem;
-        width: 30rem;
+        height: 40rem;
+        width: 40rem;
         margin-top: -25%;
         margin-left: -17%;
     }
@@ -693,14 +693,26 @@ footer
     {
         background-color: #fff;
     }
+
+    .sectionInstitut
+    {
+        background-color: var(--taupe);
+        height: 1500px;
+    }
+
+    #cardMarie
+    {
+        margin: 2%;
+    }
     /*END*/
 
     /*Carousel1*/
     .Slideshow
     {
-        height: 300px;
-        width: 310px;
+        height: 430px;
+        width: 430px;
         overflow: hidden;
+        
     }
     /*Carousel1 END*/
 
@@ -769,7 +781,7 @@ footer
     /*Cards Sothys/Cassière*/
     #cards
     {
-      margin-left: 0%;
+      margin-left: 6%;
     }
 
     #cardSothys
@@ -795,9 +807,22 @@ footer
     }
     /*Cards END*/
 
+    /*Cosmétiques*/
+    iframe
+    {
+      width: 8em;
+      height: 4em;
+    }
+
+    .carousel-caption
+    {
+        margin-top: 35%;
+    }
+    /*Cosmétiques END*/
+
     footer 
     {
-      height: 1225px;
+      height: 1250px;
       
     }
 }
