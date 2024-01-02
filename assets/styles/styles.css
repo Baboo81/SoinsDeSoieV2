@@ -17,6 +17,13 @@ body
     overflow-x: hidden;
 }
 
+.soinsDeSoieTitle
+{
+  height: 65em;
+  width: 65em;
+  margin-left: 8%;
+}
+
 .bg-brunF
 {
     background-color: var(--brunF);
@@ -551,6 +558,11 @@ nav
   /*CarouselProduct END*/
 
   /*Cards*/
+#cards
+{
+  margin-left: 26%;
+}
+
   .card 
 {
     margin-top: 5%;
@@ -1018,5 +1030,5 @@ footer
 
 @media only screen and (min-width : 991px) 
 {
-  
+
 }
