@@ -1028,7 +1028,33 @@ footer
   }
 }
 
+@media only screen and (min-width : 1400px) and (max-width : 1546px) 
+{
+  #cards
+  {
+    margin-left: 5%;
+  }
+}
+
 @media only screen and (min-width : 991px) 
 {
 
+}
+
+/*Slider1 & cachet static*/
+@media only screen and (min-width : 992px) and (max-width : 1542px)
+{
+  .Slideshow 
+  {
+      height: 500px;
+      width: 530px;
+  }
+
+  #cachetStatic
+  {
+      height: 45rem;
+      width: 45rem;
+      margin-top: -30%;
+      margin-left: -55%;
+  }
 }
