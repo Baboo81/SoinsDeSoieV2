@@ -913,10 +913,110 @@ footer
 }
 
 /*Style pour les desktop*/
-@media only screen and (min-width : 769px)
+@media only screen and (min-width : 769px) and (max-width : 991px)
 {
-    body 
+  body 
+  {
+    overflow-x: hidden;
+  }
+
+  .soinsDeSoieTitle
+  {
+    height: 100em;
+    width: 100em;
+    margin-top: 80%;
+    margin-left: 0%;
+  }
+
+  /*Section Marie*/
+  .sectionInstitut
+  {
+      background-color: var(--taupe);
+      height: 1500px;
+  }
+  /*Section Marie END*/
+
+  /*Secttion slider1*/
+  .sectionSlider1
+  {
+    height: 1550px;
+  }
+
+  .Slideshow 
+  {
+      height: 700px;
+      width: 730px;
+  }
+
+  #cachetStatic
+  {
+      height: 65rem;
+      width: 65rem;
+      margin-top: -130%;
+      margin-left: -85%;
+  }
+  /*Secttion slider1 END*/
+
+  /*Section cosmétique*/
+  #sectionCosmetiques
+  {
+     height: 1300px;
+  }
+
+  #carouselProduct
+  {
+      margin-top: -13%;
+  }
+
+  .mainTitles
+  {
+      font-size: 3em;
+  }
+  /*Section cosmétique END*/
+
+  /*Cards*/
+  #cards
     {
-      overflow-x: hidden;
+      margin-left: 16%;
     }
+  /*END*/
+
+  /*Section rdv*/
+  #sectionFid
+  {
+      margin-top: -60%;
+  }
+
+  #rdvTitle
+  {
+      margin-left: 10%;
+  }
+
+  #appointment
+  {
+    margin-left: 31%;
+  }
+
+  #carteFid
+  {
+    height: 15em;
+    width: 30em;
+    margin-left: 50%;
+  }
+  /*Section rdv END*/
+
+  footer 
+  {
+     height: 1250px;
+  }
+
+  #containerFooter
+  {
+    display: block;
+  }
+}
+
+@media only screen and (min-width : 991px) 
+{
+  
 }
