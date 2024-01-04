@@ -875,6 +875,11 @@ footer
        overflow-x: hidden;
     }
 
+    .soinsDeSoieTitle
+    {
+      margin-left: -3%;
+    }
+
     #cachetStatic
     {
         height: 40rem;
@@ -1059,6 +1064,11 @@ footer
       height: 1250px;
       
     }
+
+    #mapid
+    {
+      z-index: 20;
+    }
 }
 
 /*Style pour les tablettes*/
@@ -1067,6 +1077,11 @@ footer
     body 
     {
       overflow-x: hidden;
+    }
+
+    .soinsDeSoieTitle
+    {
+      margin-left: -4%;
     }
 
     /*Section Marie*/
@@ -1114,6 +1129,13 @@ footer
     }
     /*Section cosmétique END*/
 
+    #cards
+    {
+      height: 25em;
+      width: 25em;
+      margin-left: 2%;
+    }
+
     /*Section rdv*/
     #rdvTitle
     {
@@ -1135,6 +1157,11 @@ footer
     footer 
     {
        height: 1250px;
+    }
+
+    #mapid
+    {
+      z-index: 20;
     }
 }
 
