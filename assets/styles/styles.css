@@ -491,6 +491,81 @@ nav
 {
   margin-left: 59%;
 }
+    /*Prix épilations visage*/
+.prixEV1
+{
+  margin-left: 50%;
+}
+
+.prixEV2
+{
+  margin-left: 50%;
+}
+
+.prixEV3
+{
+  margin-left: 55%;
+}
+    /*Prix épilations autres*/
+.basDuDos
+{
+    margin-left: 50%;
+}
+
+.fesses
+{
+  margin-left: 59%;
+}
+
+.nuque
+{
+  margin-left: 60%;
+}
+
+.aisselles
+{
+  margin-left: 55%;
+}
+    /*Prix massages*/
+.massage1
+{
+  margin-left: 50%;
+}
+
+.massage2
+{
+  margin-left: 50%;
+}
+
+.massage3
+{
+  margin-left: 53%;
+}
+
+.massage4
+{
+  margin-left: 51.5%;
+}
+  /*Prix des soins du corps (modelages)*/
+.prixMDos
+{
+  margin-left: 30%;
+}
+
+.prixMJambes
+{
+  margin-left: 27.5%;
+}
+
+.prixMCorps
+{
+  margin-left: 31.5%;
+}
+
+.prixMCorpsVisage
+{
+  margin-left: 23.5%;
+}
 /*Accordion END*/
 
 #cards
