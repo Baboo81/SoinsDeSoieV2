@@ -39,7 +39,7 @@ body
 .caveatFont
 {
     font-family:"Century Gothic", 'Caveat', cursive;
-    font-size: 1.4em; 
+    font-size: 1.5em; 
     font-weight: 600;
     color: var(--taupe);
 }
@@ -97,6 +97,10 @@ nav
     width: 65rem;
     margin-top: -55%;
 }
+
+/*img*/
+
+/*END img*/
 
 /*Carousel1*/
 .Slideshow 
@@ -223,7 +227,7 @@ nav
 /*Parallaxe*/
 .banner 
 {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1Bis.jpg) center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1MediumScreen.jpg) center center fixed no-repeat;
     background-size: cover;
     height: 1200px;
 }
@@ -899,7 +903,7 @@ footer
     /*Parallaxe*/
     .banner, .order-form
     {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1Bis.jpg) center center fixed no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1SmallScreen.jpg) center center fixed no-repeat;
         background-size: cover;
         height: 1200px;
     }
