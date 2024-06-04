@@ -894,7 +894,7 @@ footer
 
     .mainTitles
     {
-        font-size: 2.6em;
+        font-size: 1.6em;
         font-weight: 600;
         font-family: 'Merriweather', serif;
         letter-spacing: .2em;
@@ -932,7 +932,7 @@ footer
     .sectionInstitut
     {
         background-color: var(--taupe);
-        height: 1500px;
+        height: 1900px;
     }
 
     #cardMarie
@@ -944,18 +944,25 @@ footer
     /*Carousel1*/
     .Slideshow
     {
-        height: 430px;
-        width: 430px;
+        height: 400px;
+        width: 400px;
+        margin-top: 25px;
         overflow: hidden;
         
     }
     /*Carousel1 END*/
 
-    /*Accordion*/
-    #collapseThree
+    #cachetStatic
     {
-      width: 300px;
+        margin-left: -150px;
     }
+
+  /*Accordion*/
+
+  #collapseThree
+  {
+      width: 300px;
+  }
 
     .scroll
   {
@@ -1014,15 +1021,21 @@ footer
     /*CarouselProduct END*/
 
     /*Cards Sothys/Cassière*/
-    #cards
+    #productCard
     {
-      margin-left: 6%;
+      margin: -136px;
     }
 
     #cardSothys
     {
       height: 20rem;
-      width: 20rem !important;
+      width: 19rem !important;
+    }
+
+    #cardCassiere
+    {
+      height: 20rem;
+      width: 15rem !important;
     }
 
     #cardContent
@@ -1051,6 +1064,12 @@ footer
     /*Cosmétiques END*/
 
     /*Section rdv*/
+
+   #blocRdv
+  {
+      margin: auto;
+  }
+
     #appointment
     {
       margin-left: 26%;
@@ -1065,7 +1084,7 @@ footer
 
     footer 
     {
-      height: 1250px;
+      height: 1270px;
       
     }
 
