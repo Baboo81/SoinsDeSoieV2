@@ -98,10 +98,6 @@ nav
     margin-top: -55%;
 }
 
-/*img*/
-
-/*END img*/
-
 /*Carousel1*/
 .Slideshow 
 {
@@ -903,22 +899,25 @@ footer
     /*Parallaxe*/
     .banner, .order-form
     {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner1SmallScreen.jpg) center center fixed no-repeat;
+        background: var(--noir);
         background-size: cover;
+        overflow-x: hidden;
         height: 1200px;
     }
 
     .perso-menu
     {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/banner2SmallScreen.jpg) center center fixed no-repeat;
+        background: var(--noir);
         background-size: cover;
+        overflow-x: hidden;
         height: 1800px;
     }
 
     .card-bloc
     {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/banner3SmallScreen.jpg) center center fixed no-repeat;
+        background: var(--noir);
         background-size: cover;
+        overflow-x: hidden;
         height: 1200px;
     }
     /*Parallaxe END*/
