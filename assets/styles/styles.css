@@ -28,6 +28,17 @@ body
     min-height: 2000px;
 }
 
+h3
+{
+    font-family: 'Dastin', sans-serif;
+    text-align: center;
+}
+
+h4
+{
+    font-family: 'Dastin', sans-serif;
+}
+
 p
 {
     font-family: 'Bodon Moda', serif !important;
