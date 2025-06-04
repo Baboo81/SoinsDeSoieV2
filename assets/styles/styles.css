@@ -126,6 +126,13 @@ section .bannerTitle
     background-size: cover;
     height: 1800px;
 }
+
+.card-contact
+{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/fond3.jpeg) center center fixed no-repeat;
+    background-size: cover;
+    height: 1800px;
+}
 /*Parallaxe END*/
 
 
@@ -165,6 +172,8 @@ section .sectionCreationTitle
     font-weight: 600;
     font-family: 'Dastin', sans-serif;
 }
+/*END*/
+
 
 
 /*FooterMap*/
