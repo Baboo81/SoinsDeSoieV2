@@ -249,8 +249,73 @@
             <div class="container">
                 <div class="row">
                     <h1 class="text-center text-muted sectionCreationTitle py-5">Les créations</h1>
+                     <div class="card my-5 border-0 rounded-0">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="./assets/img/plat1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><a href="#" class="text-muted btn">Last updated 3 mins ago</a></p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 border-0 rounded-0">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><a href="#" class="text-muted btn">Last updated 3 mins ago</a></p>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div id="carouselExampleIndicators" class="carousel slide">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="./assets/img/dish1.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./assets/img/dish2.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./assets/img/dish3.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                         </div>
+                        </div>
+                        <div class="card my-5 border-0 rounded-0">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="./assets/img/plat3.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><a href="#" class="text-muted btn">Last updated 3 mins ago</a></p>
+                                </div>
+                              </div>
+                        </div>
                 </div>
-                
             </div>
           </section>
 
@@ -266,32 +331,53 @@
     <section class="card-bloc merriweatherFont py-5">
         <div class="container">
             <div class="row" id="blocRdv">
-                <div class="card my-5 border-0 bg-light rounded-5">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="./assets/img/svg/calendar.svg" class="img-fluid rounded-start" alt="Image d'un calendrier">
+                <div class="my-5 bg-light rounded-5">
+                    <form class="rounded-5 p-5 d-flex align-center justify-items-center" action="/contact" method="POST">
+                        <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/img/form/contact.svg" alt="Illustration contact" class="img-fluid w-100" style="object-fit:cover;">
                         </div>
-                        <div class="col-md-6">
-                            <div class="card-body justify-content-center">
-                                <h1 id="rdvTitle" class="card-title text-center py-2">Prendre rendez-vous</h1>
-                                <a id="appointment" href="https://booking.optios.net/19311" onclick="openLink()" type="button" class="btn btn-primary" rel="noopener">Prendre rendez-vous</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card my-5 border-0 bg-light rounded-5">
-                        <div class="row">
-                            <div class="col-md-6" id="carteFid">
-                                <img src="./assets/img/svg/carteF.svg" class="img-fluid rounded-start" alt="Dessin de la carte de fidélité">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card-body justify-content-center" id="sectionFid">
-                                    <h1 id="rdvTitle" class="card-title text-center py-2">Carte de fidélité </h1>
-                                    <h3 class="caveatFont">Un soin = un cachet</h3>
-                                    <p>Au bout de dix soins vous aurez 10% de réduction. Cartes cadeaux à commander en ligne à venir chercher et à payer sur place en cash ou via app ou via virement, en précisant de qui, pour qui et le soin ou le montant offert. Valable 6 mois.</p>
+                            <div class="col-md-6 col-12 my-5">  
+                                <div class="mb-3">
+                                    <label for="name" class="form-label mb-3">Nom</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Veuillez indiquer votre nom de famille" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="firstName" class="form-label mb-3">Prénom</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Veuillez indiquer votre nom de famille" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="tel" class="form-label mb-3">Téléphone</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+                                        <input type="tel" class="form-control" id="tel" name="tel" placeholder="Veuillez indiquer votre numéro de téléphone" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label mb-3">Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Veuillez indiquer votre adresse mail" required> 
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label mb-3">Message</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-chat-text"></i></span>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Laissez-moi votre message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="text-center my-5">
+                                    <button type="submit" class="button">Envoyer</button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </form>
                 </div>
         </section>
 </body>
