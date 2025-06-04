@@ -45,6 +45,11 @@ p
     font-size: 1.5rem;
 }
 
+.BodoniFont
+{
+    font-family: 'Bodon Moda', serif;
+}
+
 .soinsDeSoieTitle
 {
   height: 65em;
@@ -74,7 +79,7 @@ nav
 /*Nav*/
 .perso-navbar
 {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.50);
     font-family: 'Dastin', sans-serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
     z-index: 99;
@@ -133,7 +138,7 @@ section .bannerTitle
 
 .Bxl-Sicile {
   width: 100vw;
-  height: 600px; /* ou 300px selon ton besoin */
+  height: 700px; /* ou 300px selon ton besoin */
   overflow: hidden;
 }
 
@@ -165,10 +170,7 @@ section .sectionCreationTitle
 /*FooterMap*/
 footer
 {
-    height: 615px;
-    background-color: rgba(0, 0, 0, 0.55);
-    font-family: 'Merriweather', serif;
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    
 }
 
 #mapid 
