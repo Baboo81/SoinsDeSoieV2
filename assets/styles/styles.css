@@ -52,7 +52,7 @@ p
 
 .DastinFont
 {
-    font-family: 'Dastin', sans-serif;
+    font-family: 'Dastin', sans-serif !important;
 }
 
 .soinsDeSoieTitle
