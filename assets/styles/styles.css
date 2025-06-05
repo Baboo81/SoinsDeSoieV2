@@ -192,6 +192,12 @@ section .sectionCreationTitle
     font-weight: 600;
     font-family: 'Dastin', sans-serif;
 }
+
+.carousel-inner img
+{
+    height: 400px;
+    object-fit: cover;
+}
 /*END*/
 
 /*Section activités*/
