@@ -50,6 +50,11 @@ p
     font-family: 'Bodon Moda', serif;
 }
 
+.DastinFont
+{
+    font-family: 'Dastin', sans-serif;
+}
+
 .soinsDeSoieTitle
 {
   height: 65em;
@@ -62,6 +67,21 @@ p
   font-weight: 600;
   font-family: 'Dastin', sans-serif;
   color: var(--blanc);
+}
+
+/*Btn*/
+.btn-order
+{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active
+{
+    color: #fff;
+    background-color: var(--bs-teal);
 }
 
 nav
@@ -171,6 +191,29 @@ section .sectionCreationTitle
     font-size: 3em;
     font-weight: 600;
     font-family: 'Dastin', sans-serif;
+}
+/*END*/
+
+/*Section activités*/
+#bijouxSlider 
+{
+  max-width: 600px; /* taille du slider */
+  height: 400px;
+  overflow: hidden;
+}
+
+#bijouxSlider .carousel-inner,
+#bijouxSlider .carousel-item,
+#bijouxSlider img
+{
+    height: 100%;
+}
+
+#bijouxSlider img 
+{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 /*END*/
 
