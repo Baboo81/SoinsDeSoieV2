@@ -31,7 +31,8 @@
         <!--Script Leaflet-->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
         <!--Scripts, libraries, framework JS-->
-        <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
+        <!-- Bootstrap JS Bundle avec Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
         <script src="./assets/scripts/main.js" defer></script>
         <title>Casa Imayah</title>
     </head>
@@ -43,7 +44,7 @@
         <!--Nav-->
         <nav class="perso-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
                 <div class="container-fluid">
-                    <img class="p-4 my-5" src="./assets/img/animation/ImayahLogo.svg" id="logo2" alt="Logo de l'institut Soins de Soie">
+                    <img class="logo-navbar" src="./assets/img/animation/ImayahLogo.svg" id="logo2" alt="Logo de l'institut Soins de Soie">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -184,112 +185,110 @@
           <a id="soins" href=""></a>
           <!--Anchor END-->
 
-          <section class="perso-menu py-5 merriweatherFont text-light">
+         <section class="perso-menu py-5 merriweatherFont text-light">
   <div class="container py-5">
     <h1 class="text-center mainTitles py-5">Les Soins</h1>
-    <div class="row g-4">
-      <!-- Card 1 -->
-      <div class="col-md-6 col-lg-4 d-flex">
+    <div class="row g-4 justify-content-center">
+
+      <!-- Card 1 : gauche -->
+      <div class="col-12 col-md-8 mb-5 card-wrapper card-left">
         <div class="card h-100">
-          <img src="./assets/img/soins/SoinsEner.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/soins/SoinsEner.jpg" class="card-img-top" alt="Soin énergétique">
           <div class="card-body d-flex flex-column">
             <h3 class="card-title">Soin énergétique</h3>
-            <p class="card-text flex-grow-1">Ce soin issu de la pratique ancestrale du Reiki est idéal pour régénérer le système nerveux et renforcer la vitalité. Par le toucher physique ou subtil, il harmonise ainsi le corps et l’esprit et se reçoit habillé.</p>
-            <h4>Lieu</h4>
-            <p class="card-text">Á Bruxelles et en Sicile</p>
-            <h4>Durée</h4>
-            <p class="card-text">1h30</p>
-            <h4>Prix</h4>
-            <p class="card-text">110 &euro;</p>
+            <p class="card-text flex-grow-1">Ce soin issu du Reiki régénère le système nerveux et renforce la vitalité. Il harmonise le corps et l’esprit et se reçoit habillé.</p>
+            <h4>Lieu</h4><p>Bruxelles & Sicile</p>
+            <h4>Durée</h4><p>1h30</p>
+            <h4>Prix</h4><p>110 &euro;</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 2 -->
-      <div class="col-md-6 col-lg-4 d-flex">
+      <!-- Card 2 : droite -->
+      <div class="col-12 col-md-8 mb-5 card-wrapper card-right">
         <div class="card h-100">
-          <img src="./assets/img/soins/MassageVib.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/soins/MassageVib.jpg" class="card-img-top" alt="Massage vibratoire">
           <div class="card-body d-flex flex-column">
             <h3 class="card-title">Massage vibratoire</h3>
             <p class="card-text flex-grow-1">Par un toucher à la fois ferme et doux, ce massage à l’huile libère les tensions logées dans les profondeurs du corps et de l’esprit. Il est enrichi et accompagné des vibrations du chant intuitif...</p>
             <h4>Lieu</h4>
-            <p class="card-text">Á Bruxelles et en Sicile</p>
+            <p>Á Bruxelles et en Sicile</p>
             <h4>Durée</h4>
-            <p class="card-text">1h30</p>
+            <p>1h30</p>
             <h4>Prix</h4>
-            <p class="card-text">110 &euro;</p>
+            <p>110 &euro;</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 3 -->
-      <div class="col-md-6 col-lg-4 d-flex">
+      <!-- Card 3 : gauche -->
+      <div class="col-12 col-md-8 mb-5 card-wrapper card-left">
         <div class="card h-100">
-          <img src="./assets/img/soins/Accompagnement.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/soins/Accompagnement.jpg" class="card-img-top" alt="Accompagnement thérapeutique">
           <div class="card-body d-flex flex-column">
             <h3 class="card-title">Accompagnement thérapeutique</h3>
-            <p class="card-text flex-grow-1">Par le verbe enraciné dans les outils de la psychologie des profondeurs... (tu peux raccourcir si besoin)</p>
+            <p class="card-text flex-grow-1">Par le verbe enraciné dans les outils de la psychologie des profondeurs...</p>
             <h4>Lieu</h4>
-            <p class="card-text">Á Bruxelles et en Sicile</p>
+            <p>Á Bruxelles et en Sicile</p>
             <h4>Durée 1ère séance</h4>
-            <p class="card-text">2h</p>
+            <p>2h</p>
             <h4>Prix</h4>
-            <p class="card-text">130 &euro;</p>
+            <p>130 &euro;</p>
             <h4>À partir de la 2e séance :</h4>
-            <p class="card-text">1h30</p>
+            <p>1h30</p>
             <h4>Prix</h4>
-            <p class="card-text">110 &euro;</p>
+            <p>110 &euro;</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 4 -->
-      <div class="col-md-6 col-lg-4 d-flex">
+      <!-- Card 4 : droite -->
+      <div class="col-12 col-md-8 mb-5 card-wrapper card-right">
         <div class="card h-100">
-          <img src="./assets/img/soins/Méditation.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/soins/Méditation.jpg" class="card-img-top" alt="Méditation">
           <div class="card-body d-flex flex-column">
             <h3 class="card-title">Méditation</h3>
             <p class="card-text flex-grow-1">En petit groupe de max 6 personnes, cet atelier a pour intention d’emprunter cette voie ancestrale de connaissance de soi qu’est la méditation...</p>
             <h4>Lieu</h4>
-            <p class="card-text">Á Bruxelles et en Sicile</p>
+            <p>Á Bruxelles et en Sicile</p>
             <h4>Durée</h4>
-            <p class="card-text">2h</p>
+            <p>2h</p>
             <h4>Prix</h4>
-            <p class="card-text">35 &euro;</p>
+            <p>35 &euro;</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 5 -->
-      <div class="col-md-6 col-lg-4 d-flex">
+      <!-- Card 5 : gauche -->
+      <div class="col-12 col-md-8 mb-5 card-wrapper card-left">
         <div class="card h-100">
-          <img src="./assets/img/soins/SoinsAme.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/soins/SoinsAme.jpg" class="card-img-top" alt="Soin de l'âme">
           <div class="card-body d-flex flex-column">
             <h3 class="card-title">Soin de l'âme</h3>
-            <p class="card-text flex-grow-1">Soutenu par la transe, ce soin est un dialogue avec l’âme... (texte à résumer un peu ?)</p>
+            <p class="card-text flex-grow-1">Soutenu par la transe, ce soin est un dialogue avec l’âme...</p>
             <h4>Lieu</h4>
-            <p class="card-text">Á Bruxelles et en Sicile</p>
+            <p>Á Bruxelles et en Sicile</p>
             <h4>Durée</h4>
-            <p class="card-text">1h30</p>
+            <p>1h30</p>
             <h4>Prix</h4>
-            <p class="card-text">110 &euro;</p>
+            <p>110 &euro;</p>
           </div>
         </div>
       </div>
 
-      <!-- Card 6 -->
-      <div class="col-md-6 col-lg-4 d-flex">
+      <!-- Card 6 : droite -->
+      <div class="col-12 col-md-8 mb-5 card-wrapper card-right">
         <div class="card h-100">
-          <img src="./assets/img/soins/BainSonor.PNG" class="card-img-top" alt="...">
+          <img src="./assets/img/soins/BainSonor.PNG" class="card-img-top" alt="Bain sonore">
           <div class="card-body d-flex flex-column">
             <h3 class="card-title">Bain sonore</h3>
             <p class="card-text flex-grow-1">En cercle de max 12 personnes dans une yourte mongole, ce soin vibratoire est une immersion dans l’univers des sons...</p>
             <h4>Lieu</h4>
-            <p class="card-text">En Sicile</p>
+            <p>En Sicile</p>
             <h4>Durée</h4>
-            <p class="card-text">1h30</p>
+            <p>1h30</p>
             <h4>Prix</h4>
-            <p class="card-text"> &euro;</p>
+            <p> &euro;</p>
           </div>
         </div>
       </div>
@@ -297,6 +296,7 @@
     </div>
   </div>
 </section>
+
 
           
           <!--Anchor-->
