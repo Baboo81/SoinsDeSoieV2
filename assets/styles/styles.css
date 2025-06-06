@@ -15,7 +15,7 @@
 :root
 {
     --noir: #000;
-    --beige : #e5efe6;
+    --beige : #f0eee9;
     --blanc : #ffffff;
     --taupe : #8e8d8a;
     --brun : #e8d5cc;
@@ -237,9 +237,15 @@ footer
     
 }
 
+footer .icons
+{
+    height: 3rem;
+    width: 3rem;
+}
+
 #mapid 
 {
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
 }
 /*FooterMap END*/
