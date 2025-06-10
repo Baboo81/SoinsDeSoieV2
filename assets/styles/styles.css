@@ -103,6 +103,19 @@ nav
 {
     height: 70px;
     font-size: 1.4em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px; /* un peu de padding */
+    z-index: 1000;
+}
+
+.sticky
+{
+    transition: 2.6s ease; /* transition pour l'animation du bord */
+    background-color: #000;
+    opacity: 80%;
 }
 
 #logo2
@@ -137,12 +150,6 @@ nav
 {
     padding-bottom: 20px;
     border-bottom-color: var(--blanc);
-}
-
-.sticky
-{
-    background-color: #000;
-    opacity: 80%;
 }
 
 @media (max-width: 991.98px) 
