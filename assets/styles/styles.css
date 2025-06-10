@@ -28,7 +28,7 @@ body
     min-height: 2000px;
 }
 
-h3
+h2, h3
 {
     font-family: 'Dastin', sans-serif;
     text-align: center;
@@ -42,7 +42,7 @@ h4, h5
 p
 {
     font-family: 'Bodon Moda', serif !important;
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
 }
 
 .whiteFont
