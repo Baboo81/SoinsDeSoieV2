@@ -331,7 +331,7 @@ footer .icons
 
 #mapid 
 {
-    height: 250px;
+    height: 250px !important;
     border-radius: 10px;
 }
 /*FooterMap END*/
