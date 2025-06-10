@@ -121,9 +121,9 @@ nav
 /*Nav*/
 .perso-navbar
 {
-    background-color: rgba(0, 0, 0, 0.50);
+    /*background-color: rgba(0, 0, 0, 0.50);*/
     font-family: 'Dastin', sans-serif;
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    /*box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);*/
     z-index: 99;
 }
 
@@ -137,6 +137,12 @@ nav
 {
     padding-bottom: 20px;
     border-bottom-color: var(--blanc);
+}
+
+.sticky
+{
+    background-color: #000;
+    opacity: 80%;
 }
 
 @media (max-width: 991.98px) 

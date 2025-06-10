@@ -1,5 +1,18 @@
 "use strict";
 
+//NavBar
+//Sticky Nav :
+$(window).scroll(function(){
+
+   let scroll = $(this).scrollTop();
+
+   if(scroll > 100){
+     $("nav").addClass('sticky');
+   } else {
+     $("nav").removeClass('sticky');
+   }
+});
+
 //Footer map:
 //Create map:
 const centroid = [37.0662, 15.2843];
