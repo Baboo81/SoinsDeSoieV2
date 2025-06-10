@@ -39,6 +39,16 @@ h4, h5
     font-family: 'Dastin', sans-serif;
 }
 
+h3
+{
+    font-size: 2rem !important;
+}
+
+h4
+{
+    font-size: 1.8rem !important;
+}
+
 p
 {
     font-family: 'Bodon Moda', serif !important;
@@ -285,8 +295,18 @@ section .sectionCreationTitle
 
 .carousel-inner img
 {
-    height: 400px;
+    height: 600px;
     object-fit: cover;
+}
+
+section .picture
+{
+    height: 600px;
+}
+
+.write ul > li
+{
+    font-size: 1.5rem;
 }
 /*END*/
 
@@ -317,9 +337,19 @@ section .sectionCreationTitle
     width: 100% !important;
     height: 450px;
 }
+
+.blocBtn
+{
+    margin-right: -15% !important;
+}
 /*END*/
 
-
+/* SectionRetraites */
+.blocRetraites
+{
+    margin-bottom: 20% !important;
+}
+/* END */
 
 /*FooterMap*/
 
