@@ -20,9 +20,17 @@ window.addEventListener('scroll', () => {
   const scrollTop = window.scrollY;
   const docHeight = document.documentElement.scrollHeight - window.innerHeight;
   const scrollPercent = (scrollTop / docHeight) * 100;
-  const color = scrollPercent > 30 ? 'green' : 'green';
+  const color = 'green';
+  const arrow = document.querySelector('scroll-arrow');
 
   circle.style.background = `conic-gradient(${color} ${scrollPercent}%, transparent 0%)`;
+
+  //Mise à jour de la direction de la flèche :
+  if (scrollPercent >= 98) {
+    arrow.innerHTML = '&#8593;'; // flèche vers le haut ↑
+  } else {
+    arrow.innerHTML = '&#x2193;'; // flèche vers le bas ↓
+  }
 
 });
 
