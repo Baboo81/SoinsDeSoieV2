@@ -174,30 +174,28 @@ nav
 /*Nav END*/
 
 /* Indicateur de progression */
-#scroll-indicator
-{
+
+#scroll-indicator {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  height: 50px;
-  width: 50px;
-  border: 3px solid #ccc;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
+  background: conic-gradient(gray 0%, transparent 0%);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 9999;
+  transition: background 0.3s ease;
 }
 
-.needle
-{
-  width: 4px;
-  height: 20px;
-  background: gray;
-  transform-origin: bottom center;
-  transform: rotate(0deg);
-  transition: transform 0.2s, background 0.2s;
-  border-radius: 2px;
+/* Cercle intérieur pour l'effet de "remplissage circulaire" */
+.inner-circle {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
 }
 /* END */
 

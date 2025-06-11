@@ -16,22 +16,16 @@ $(window).scroll(function(){
 
 //Zone de progression : 
 window.addEventListener('scroll', () => {
-
-  const needle = document.querySelector('.needle');
+  const circle = document.getElementById('scroll-indicator');
   const scrollTop = window.scrollY;
   const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-  const scrollPercent = scrollY / docHeight;
+  const scrollPercent = (scrollTop / docHeight) * 100;
 
-  const angle = scrollPercent * 360; //Cercle complet
-  needle.style.transform = `rotate(${angle}deg)`;
+  const color = scrollPercent > 80 ? 'green' : 'gray';
 
-  //Devient vert après 80% de la page
-  if (scrollPercent > 0.8) {
-    needle.style.background = 'green';
-  } else {
-    needle.style.background = 'grey';
-  }
+  circle.style.background = `conic-gradient(${color} ${scrollPercent}%, transparent 0%)`;
 });
+
 
 ///////////////////////////////  END /////////////////////////
 
