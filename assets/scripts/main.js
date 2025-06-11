@@ -20,16 +20,17 @@ window.addEventListener('scroll', () => {
   const scrollTop = window.scrollY;
   const docHeight = document.documentElement.scrollHeight - window.innerHeight;
   const scrollPercent = (scrollTop / docHeight) * 100;
-
-  const color = scrollPercent > 80 ? 'green' : 'gray';
+  const color = scrollPercent > 30 ? 'green' : 'green';
 
   circle.style.background = `conic-gradient(${color} ${scrollPercent}%, transparent 0%)`;
+
 });
 
 
 ///////////////////////////////  END /////////////////////////
 
 //Footer map:
+
 //Create map:
 const centroid = [37.0662, 15.2843];
 const map = L.map('mapid').setView(centroid, 16.4);

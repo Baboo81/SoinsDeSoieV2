@@ -175,7 +175,8 @@ nav
 
 /* Indicateur de progression */
 
-#scroll-indicator {
+#scroll-indicator 
+{
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -191,11 +192,40 @@ nav
 }
 
 /* Cercle intérieur pour l'effet de "remplissage circulaire" */
-.inner-circle {
-  width: 40px;
-  height: 40px;
-  background: white;
+.inner-circle 
+{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: var(--brun);
   border-radius: 50%;
+}
+
+.scroll-arrow
+{
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: gray;
+  animation: blink 1.2s infinite;
+  user-select: none;
+  pointer-events: none;
+}
+
+@keyframes blink
+{
+  0%, 100%
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50%
+  {
+    opacity: 0.3;
+    transform: translateY(3px);
+  }
 }
 /* END */
 
