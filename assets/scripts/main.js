@@ -12,6 +12,28 @@ $(window).scroll(function(){
      $("nav").removeClass('sticky');
    }
 });
+///////////////////////////////  END /////////////////////////
+
+//Zone de progression : 
+window.addEventListener('scroll', () => {
+
+  const needle = document.querySelector('.needle');
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrollPercent = scrollY / docHeight;
+
+  const angle = scrollPercent * 360; //Cercle complet
+  needle.style.transform = `rotate(${angle}deg)`;
+
+  //Devient vert après 80% de la page
+  if (scrollPercent > 0.8) {
+    needle.style.background = 'green';
+  } else {
+    needle.style.background = 'grey';
+  }
+});
+
+///////////////////////////////  END /////////////////////////
 
 //Footer map:
 //Create map:
