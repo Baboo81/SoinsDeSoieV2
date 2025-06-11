@@ -186,6 +186,7 @@ section .bannerTitle
     font-size: 6rem;
     font-family: 'Dastin', sans-serif;
     color: var(--beige);
+    letter-spacing: .6rem;
 }
 
 .perso-menu
