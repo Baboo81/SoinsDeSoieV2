@@ -17,6 +17,8 @@
     --noir: #000;
     --beige : #f0eee9;
     --blanc : #ffffff;
+    --jaune : #fffede;
+    --orange : #feae62;
     --taupe : #8e8d8a;
     --brun : #e8d5cc;
     --brunF : #bda18a;
@@ -70,7 +72,7 @@ p
     font-family: 'Dastin', sans-serif !important;
 }
 
-.soinsDeSoieTitle
+.casaImayahTitle
 {
   height: 65em;
   width: 65em;
@@ -274,9 +276,9 @@ section .bannerTitle
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
 
-.sectionInstitut
+.sectionContact
 {
-    background-color: var(--blanc);
+    background-color: var(--jaune);
     min-height: 1200px;
 }
 
@@ -356,6 +358,21 @@ section .bannerTitle
 /* Section : soins END */
 
 /*Section création*/
+.sectionCreation
+{
+  background-color: var(--orange);
+}
+
+.sectionCreation .card 
+{
+  background-color: var(--orange);
+}
+
+.card .list-group-item
+{
+  background-color: var(--orange) !important;
+}
+
 section .sectionCreationTitle
 {
     font-size: 3em;
