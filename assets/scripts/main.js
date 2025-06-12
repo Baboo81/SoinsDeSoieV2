@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => {
   const docHeight = document.documentElement.scrollHeight - window.innerHeight;
   const scrollPercent = (scrollTop / docHeight) * 100;
   const color = 'green';
-  const arrow = document.querySelector('scroll-arrow');
+  const arrow = document.querySelector('.scroll-arrow');
 
   circle.style.background = `conic-gradient(${color} ${scrollPercent}%, transparent 0%)`;
 

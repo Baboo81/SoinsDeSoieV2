@@ -87,8 +87,8 @@ p
 /*Btn*/
 .btn-order
 {
-    color: var(--bs-teal);
-    border-color: var(--bs-teal);
+    color: var(--taupe);
+    border-color: var(--taupe);
     transition: 0.5s;
 }
 
@@ -96,7 +96,7 @@ p
 .btn-order:active
 {
     color: #fff;
-    background-color: var(--bs-teal);
+    background-color: var(--taupe);
 }
 
 nav
@@ -423,10 +423,15 @@ section .picture
 
 /*FooterMap*/
 
-footer .icons
+footer i
 {
-    height: 3rem;
-    width: 3rem;
+    transition: transform .3s ease;
+}
+
+footer i:hover
+{
+    transform: scale(1.3);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 #mapid 
