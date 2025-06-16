@@ -72,20 +72,6 @@ p
     font-family: 'Dastin', sans-serif !important;
 }
 
-.casaImayahTitle
-{
-  height: 65em;
-  width: 65em;
-}
-
-.mainTitles
-{
-  font-size: 3em;
-  font-weight: 600;
-  font-family: 'Dastin', sans-serif;
-  color: var(--blanc);
-}
-
 /*Btn*/
 .btn-order
 {
@@ -234,6 +220,28 @@ nav
 }
 /* END */
 
+/* Section : banner */
+.casaImayahTitle
+{
+  height: 65em;
+  width: 65em;
+}
+
+.name
+{
+  font-size: 2rem;
+  letter-spacing: .36rem;
+}
+
+.mainTitles
+{
+  font-size: 3em;
+  font-weight: 600;
+  font-family: 'Dastin', sans-serif;
+  color: var(--blanc);
+}
+/* END  Section : banner */
+
 /*Parallaxe*/
 .banner 
 {
@@ -253,7 +261,7 @@ section .bannerTitle
 .soins
 {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../img/banner/fond1.jpeg) center center fixed no-repeat;
-    background-size: cover;
+    background-size: 142%;
     min-height: 2800px;
 }
 
